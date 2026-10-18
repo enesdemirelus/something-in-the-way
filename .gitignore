@@ -1,2 +1,3 @@
-apps/ml/dataset/
+apps/ml/dataset/images/
+apps/ml/dataset/.ipynb_checkpoints/
 .DS_Store
