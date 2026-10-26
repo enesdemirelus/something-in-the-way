@@ -3,3 +3,5 @@ loss: BCEWithLogitsLoss, pos_weight=10
 optimizer: Adam, lr=1e-3, no weight decay
 batch size: 16
 epochs: 10
+
+best cutoff on validation: 0.8 (IoU 0.5044; IoU at 0.5 was 0.3742)
