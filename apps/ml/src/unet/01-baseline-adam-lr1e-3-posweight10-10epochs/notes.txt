@@ -1,0 +1,5 @@
+model: UNet (32-64-128-256 channels), 1,925,025 parameters
+loss: BCEWithLogitsLoss, pos_weight=10
+optimizer: Adam, lr=1e-3, no weight decay
+batch size: 16
+epochs: 10
