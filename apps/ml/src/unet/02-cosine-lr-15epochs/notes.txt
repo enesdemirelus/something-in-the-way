@@ -1,0 +1,7 @@
+model: UNet (32-64-128-256 channels), 1,925,025 parameters
+loss: BCEWithLogitsLoss, pos_weight=10
+optimizer: Adam, lr=1e-3, cosine schedule down to 0, no weight decay
+batch size: 16
+epochs: 15
+best epoch: 10
+best val IoU: 0.5188 at cutoff 0.8
