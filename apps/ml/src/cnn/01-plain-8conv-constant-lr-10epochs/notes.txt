@@ -1,0 +1,8 @@
+model: PlainCNN (8 conv layers, no pooling, 32-64-64-32 channels), 166,593 parameters
+loss: BCEWithLogitsLoss, pos_weight=10
+optimizer: Adam, lr=1e-3, constant, no weight decay
+batch size: 16
+epochs: 10
+cutoff: 0.5
+best epoch: 7
+best val IoU: 0.2207 at cutoff 0.5
