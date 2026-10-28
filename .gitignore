@@ -1,4 +1,4 @@
-apps/ml/dataset/images/
+dataset/images/
 .DS_Store
 .ipynb_checkpoints/
-apps/ml/src/faster-rcnn/**/model.pt
+src/faster-rcnn/**/model.pt
