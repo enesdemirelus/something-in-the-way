@@ -1,0 +1,12 @@
+model: Faster R-CNN, ResNet-50 + FPN, pretrained on COCO, new 2-class head
+image size: min_size=256 (no enlarging)
+parameters: 41,299,161
+optimizer: SGD, lr=0.005, momentum=0.9, weight_decay=0.0005, cosine schedule
+batch size: 8
+epochs: 10
+cutoffs tried: [0.3, 0.5, 0.7, 0.8, 0.9]
+match rule: box IoU >= 0.5
+best epoch: 10
+best val F1: 0.7958 at cutoff 0.8
+precision: 0.7895
+recall: 0.8021
