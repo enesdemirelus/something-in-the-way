@@ -1,0 +1,9 @@
+model: frozen DINOv3 ViT-S/16 (21,596,544 parameters, not trained) + linear head (1x1 conv, 384 -> 1), 385 trained parameters
+features: 16x16 patch tokens (384 numbers each), extracted once; head output upsampled to 256x256 (bilinear)
+loss: BCEWithLogitsLoss, pos_weight=10
+optimizer: Adam, lr=1e-3, cosine schedule, no weight decay
+batch size: 64
+epochs: 15
+cutoffs tried: [0.5, 0.6, 0.7, 0.8, 0.9]
+best epoch: 13
+best val IoU: 0.4975 at cutoff 0.8
