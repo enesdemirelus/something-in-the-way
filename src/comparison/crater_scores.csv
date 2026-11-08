@@ -1,0 +1,4 @@
+Model,Precision,Recall,F1 (higher is better),Cutoff
+U-Net 2,0.498,0.6996,0.5818,0.9
+DINOv3,0.3112,0.1634,0.2143,0.9
+Faster R-CNN,0.7895,0.8021,0.7958,0.8

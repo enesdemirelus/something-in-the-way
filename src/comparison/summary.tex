@@ -1,0 +1,12 @@
+\begin{tabular}{lllrrr}
+\toprule
+Model & Type & Trained params & Epochs & Pixel IoU & Crater F1 \\
+\midrule
+MLP & from scratch & 525,568 & 10 & 0.181400 & - \\
+CNN & from scratch & 166,593 & 10 & 0.220700 & - \\
+U-Net 1 & from scratch & 1,925,025 & 10 & 0.449500 & 0.489600 \\
+U-Net 2 & from scratch & 1,925,025 & 15 & 0.518800 & 0.581800 \\
+DINOv3 & foundation (frozen) & 385 & 15 & 0.497500 & 0.214300 \\
+Faster R-CNN & fine-tuned (COCO) & 41,299,161 & 10 & - & 0.795800 \\
+\bottomrule
+\end{tabular}

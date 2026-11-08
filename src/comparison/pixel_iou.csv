@@ -1,0 +1,6 @@
+Model,Best epoch,Val IoU (higher is better),Cutoff
+MLP,6,0.1814,0.5
+CNN,7,0.2207,0.5
+U-Net 1,9,0.4495,0.5
+U-Net 2,10,0.5188,0.8
+DINOv3,13,0.4975,0.8
