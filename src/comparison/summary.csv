@@ -4,4 +4,4 @@ CNN,from scratch,"166,593",10,0.2207,
 U-Net 1,from scratch,"1,925,025",10,0.4495,0.4896
 U-Net 2,from scratch,"1,925,025",15,0.5188,0.5818
 DINOv3,foundation (frozen),385,15,0.4975,0.2143
-Faster R-CNN,fine-tuned (COCO),"41,299,161",10,,0.7958
+Faster R-CNN,fine-tuned (COCO),"41,299,161",15,,0.7954

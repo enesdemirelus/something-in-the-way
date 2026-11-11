@@ -1,11 +1,11 @@
 model: MLP 227 -> 128 (ReLU) -> 8, 30,216 parameters
 input: 15x15 window of the Faster R-CNN detected map (cutoff 0.8, outside the image = crater) + 2-number direction to goal
 labels: teacher moves from A* on the true crater map (behavior cloning, no DAgger)
-training data: 87,721 train examples from 500 train routes, 17,561 val examples from 100 val routes
+training data: 88,252 train examples from 500 train routes, 18,409 val examples from 100 val routes
 loss: CrossEntropyLoss | optimizer: Adam, lr=1e-3 | batch size: 256 | epochs: 10
-best val accuracy: 0.7440
+best val accuracy: 0.7528
 driving: reached = within 2 cells of goal; lost = more than 3x the straight-line distance in steps; off-map moves = stay
 test: the same 1,000 test routes as Rover 1
 
-Rover 1: {'reached goal': '99.9%', 'runs that entered a crater': '9.3%', 'craters entered': 99, '  missed by detector': 27, 'avg path length (reached runs)': '208.6'}
-Rover 2: {'reached goal': '99.6%', 'runs that entered a crater': '12.5%', 'craters entered': 132, '  missed by detector': 32, 'avg path length (reached runs)': '206.5'}
+Rover 1: {'reached goal': '100.0%', 'runs that entered a crater': '9.3%', 'craters entered': 100, '  missed by detector': 32, 'avg path length (reached runs)': '209.3'}
+Rover 2: {'reached goal': '100.0%', 'runs that entered a crater': '11.2%', 'craters entered': 117, '  missed by detector': 23, 'avg path length (reached runs)': '207.0'}
