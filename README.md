@@ -4,7 +4,7 @@
 
 Final project for CSC 383 (Deep Learning) at DePaul University, Fall 2026 · Enes Demirel
 
-📄 **There is a paper for this project:** [read it here (PDF)](paper/something-in-the-way.pdf) · [LaTeX source](main.tex)
+📄 **There is a paper for this project:** [read it here (PDF)](paper/something-in-the-way.pdf) · [LaTeX source](paper/main.tex)
 
 <p align="center">
   <img src="figures/pipeline.png" alt="Pipeline overview" width="850">
@@ -79,10 +79,9 @@ More details, limitations and future work are in the [paper](paper/something-in-
 something-in-the-way.ipynb   # main notebook, everything end-to-end (start here)
 01-... to 10-....ipynb       # the step-by-step notebooks I worked in
 src/                         # results for each model/rover run (scores, curves, predictions, weights)
-figures/                     # figure scripts + figures used in the paper
+figures/                     # figure scripts + PNG figures
 dataset/                     # labels + train/val/test split (images not included)
-paper/                       # compiled paper (PDF)
-main.tex, refs.bib           # paper source
+paper/                       # the paper: PDF, LaTeX source, bib and its figures
 ```
 
 ## Running it
