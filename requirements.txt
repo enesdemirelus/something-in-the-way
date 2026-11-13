@@ -1,0 +1,13 @@
+# Python 3.12+ (notebooks were run on 3.12 and 3.14)
+torch
+torchvision
+transformers
+huggingface_hub
+numpy
+scipy
+scikit-learn
+pillow
+matplotlib
+pandas
+tqdm
+jupyter
